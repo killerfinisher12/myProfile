@@ -1,0 +1,163 @@
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body{
+min-height: 100%;
+font-family:"Proxima Nova Soft W03 Regular";
+font-style:normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Soft W03 Regular"; 
+    src: url("../@font-face/f1448054f14757d284c064b271c00cc6.eot"); /* IE9*/ 
+    src: url("../@font-face/f1448054f14757d284c064b271c00cc6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ 
+    url("../@font-face/f1448054f14757d284c064b271c00cc6.woff2") format("woff2"), /* chrome、firefox */ 
+    url("../@font-face/f1448054f14757d284c064b271c00cc6.woff") format("woff"), /* chrome、firefox */ 
+    url("../@font-face/f1448054f14757d284c064b271c00cc6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ 
+    url("../@font-face/f1448054f14757d284c064b271c00cc6.svg#Proxima Nova Soft W03 Regular") format("svg"); /* iOS 4.1- */ 
+}
+
+#icon{
+height: 80px;
+width: 70px;
+margin: 0px 10px;
+position: fixed;
+}
+
+#icon-container{
+border: 1px solid #f5f5f5;
+width: 100%;
+height: auto;
+background-color: white;
+position: fixed;
+}
+#logo{
+height: 30px;
+width: 30px;
+margin-top: 25px;
+}
+a .title::before, a .title::after{
+
+content: "";
+background-image: url('image/logo.png');
+background-size: 40px 40px;
+height: 40px;
+width: 40px;
+display: inline-block;
+margin: 0px 5px;
+}
+#icon-container div {
+text-align: center;
+}
+.title{
+font-size: 35px;
+color: #7600e6;
+font-weight: bolder;
+}
+#icon-container div a:hover{
+text-decoration: none;
+}
+.title:hover{
+background-color: rgba(153, 194, 255, .2);
+}
+#nav-header{
+font-size: 50px;
+margin: 85px 0px 0px 0px;
+overflow: auto;
+margin-left: -35%;
+width: 35%;
+position: fixed;
+height: 100%;
+background-color: rgba(115, 0, 230, .80);
+display: inline-block;
+padding: 10px;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+li{
+margin: 20px 0px;
+list-style-type: none;
+}
+.box{
+ font-size: 40px;
+display: inline-block;
+text-align: justify;
+margin: 10px 10px 10px 10px;
+padding: 20px;
+width: 60%;
+background-color: #f2f2f2;
+box-shadow: 0px 0px 10px rgba(0,0,0, .25);
+}
+div p a {
+color: #7300e6;
+font-size: 35px;
+border: 3px solid #7300e6;
+padding: 5px;
+}
+div p a:hover{
+background-color: rgba(153, 194, 255, .4);
+text-decoration: none;
+}
+.container-box{
+    text-align: center;
+    margin-top: 100px;
+}
+.img{
+   margin: 20px 0px;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #7600e6;
+border-radius: 50%;
+box-shadow: 0px 0px 10px rgba(0,0,0, .5);
+}
+.footer{
+text-align: center;
+font-size: 30px;
+color: #d7b3ff;
+ display: inline-block;
+margin-top: 30px;
+height: 300px;
+width: 100%;
+background-color: rgba(0,0,0, .90);
+bottom: 0;
+
+}
+.footer p{
+    line-height: 27px;
+}
+h1{
+margin: 30px 0px;
+font-weight: bolder;
+font-size: 3rem;
+}
+.programs{
+margin-top: 70px;
+font-size: 4rem;
+}
+.courses{
+font-weight: bolder;
+}
+.webp{
+font-size: 28px;
+color: white;
+padding: 40px;
+background-color: rgba(115, 0, 230, .8);
+margin: 50px 0px 0px 0px;
+line-height: 15px;
+}
+.achievement{
+margin: 80px 0px 10px 0px;
+line-height: 22px;
+font-size: 35px;
+}
+.achievement img{
+margin: 10px;
+
+}
