@@ -1,1 +1,168 @@
-<h1>hello cal</h1>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Hello, World!</title>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/carousel.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+var click = 1;
+
+$("#icon").click(function(){
+
+if(click == 1){
+$("#nav-header").animate({
+"margin-left": "0%"
+}, 500);
+$("#icon").css({
+"border": "2px solid #7300e6"
+});
+click = 2;
+
+}
+else if(click == 2){
+$("#nav-header").animate({
+"margin-left": "-35%"
+}, 500);
+$("#icon").css({
+"border": "none"
+});
+click = 1;
+
+
+}
+});
+
+
+});
+</script>
+
+
+    </head>
+    <body>
+<header>
+<div id="icon-container">
+<img id="icon" src="assets/image/logo3.png" alt="logo">
+ <br>
+
+<div>
+<a href="index.php"><span class="title">Philippine College of Science and Technology</span></a>
+</div>
+</div>
+
+
+<ul id="nav-header">
+<li><a class="anchor-nav" href="index.php">Home</a></li>
+<li><a class="anchor-nav" href="#">About</a></li>
+<li><a 	class="anchor-nav"	href="#">Contact Us</a></li>
+
+</ul>
+    
+</header>
+   
+<div class="container-fluid">
+<div class="row">
+<div class="container-box">
+ 
+ <div class="achievement">
+  <img src="assets/image/ama1.png" alt="image">
+  <p>ISO 9001:2008 Certified for all </p>
+  <p>programs; Recognized as Center of </p>
+  <p>Development in Information </p>
+  <p>Technology by CHED.</p>
+  
+  <img src="assets/image/ama2.png" alt="image">
+  <p>Philcst will be the leader and dominant </p>
+  <p>provider of relevant globally </p>
+  <p>recognized information technology-based</p>
+  <p>education and related services in the global market.</p>
+  
+  <img src="assets/image/ama3.png" alt="image">
+  <p>College buildings, gymnasium, audio </p>
+  <p>visual room, super lab.</p>
+ 
+ </div>
+ 
+ 
+ 
+<div class="webp">
+ <h1>Be Life-ready. Be Career-ready. Be Philcst.</h1>
+<img src="assets/image/pic1.webp" alt="image">
+ <p>	Gain industry-driven knowledge and skills</p>
+ <p>with modules from leading industry partners</p>
+ <p>in every PHILCST campus nationwide.</p>
+ 
+ <img src="assets/image/pic2.webp" alt="image">
+ <p>Access your class lectures, handouts, </p>
+ <p>and notes on your mobile devices </p>
+ <p>through the PHILCST eLearning Management System.</p>
+ 
+ <img src="assets/image/pic3.webp" alt="image">
+ <p>Develop your skills in fully-equipped </p>
+ <p>simulation and training laboratories</p>
+ <p> while you learn from certified professors. </p>
+</div>
+ 
+ 
+ <h1 class="programs">OFFERED PROGRAMS</h1>
+  <img class="img" src="assets/image/bg.png" alt="image">
+ <br>
+   <div class="box">
+    <span class="courses">B.S. Secondary Education</span>
+       <p>Philcst is the best school in
+           Pangasinan. What are you waiting
+           for enroll now to achieve your dreams and goals
+           in life.
+           <a href="#">Enroll Now</a>
+       </p>
+   </div>
+<br>
+<img class="img" src="assets/image/bg.png" alt="image">
+<br>
+   <div class="box">
+    <span class="courses">B.S. Information Technology</span>
+       <p>Philcst is the best school in
+           Pangasinan. What are you waiting
+           for enroll now to achieve your dreams and goals
+           in life.
+           <a href="#">Enroll Now</a>
+       </p>
+   </div>
+<br>
+<img class="img" src="assets/image/bg.png" alt="image">
+ <br> 
+   <div class="box">
+    <span class="courses">B.S. Marine Transportation</span>
+       <p>Philcst is the best school in Pangasinan. What are you waiting
+           for enroll now to achieve your dreams and goals
+           in life.
+           <a href="#">Enroll Now</a>
+       </p>
+ </div> 
+ 
+ 
+</div>
+</div>
+</div>
+     
+     
+     
+     
+     
+     
+<div class="footer">
+ <br>
+ 
+ <p>Old Nalsian Road Nalsian, Calasiao, Pangasinan</p>
+ <p>philcstreg@yahoo.com</p>
+ <p>(075) 522 8032</p>
+ <p class="footer-text">© PHILCST Education Services Group, Inc. All Rights Reserved.</p>
+</div>
+    </body>
+</html>
